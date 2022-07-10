@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  background-color: gainsboro;
+  align-items: center;
+  color: black;
+}
+
+
+h1 {
+  font-size:40px;
+}
+
+
+.players {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.play {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(177, 235, 177);
+  border: 3px solid black;
+  border-radius: 10px;
+  color:black;
+  font-size: 20px;
+}
+
+.button:hover {
+  cursor:pointer;
+}
+
+.images-container img:hover {
+  cursor: pointer
+}
+
+

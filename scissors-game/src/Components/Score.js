@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
-const Score = (player) => {
-
-    const [player1Score, setPlayer1Score] = useState(0);
-    const [player2Score, setPlayer2Score] = useState(0);
-
+const Score = ({ player1Score, player2Score }) => {
     return (
-        <>
-            <h3></h3>
-        </>
+        <div className="score-container">
+            <h2>Scores</h2>
+            <h3>Player 1</h3>
+            <span>{{ player1Score }}</span>
+            <h3>Player 2</h3>
+            <span>{{ player2Score }}</span>
+        </div>
     );
 };
 
